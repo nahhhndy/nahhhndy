@@ -1,9 +1,9 @@
 <svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="whoami terminal">
   <defs>
     <linearGradient id="wBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F5FF"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#00FF9C"/>
+      <stop offset="0%" stop-color="#A7A7A7"/>
+      <stop offset="50%" stop-color="#545454"/>
+      <stop offset="100%" stop-color="#7A7A7A"/>
       <animateTransform attributeName="gradientTransform" type="rotate" from="0 450 280" to="360 450 280" dur="16s" repeatCount="indefinite"/>
     </linearGradient>
     <filter id="wGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -18,61 +18,61 @@
   </defs>
 
   <g clip-path="url(#wFrame)">
-    <rect width="900" height="560" fill="#0B0E14"/>
+    <rect width="900" height="560" fill="#181818"/>
     <defs>
       <pattern id="wGrid" width="36" height="36" patternUnits="userSpaceOnUse">
-        <path d="M36 0 L0 0 0 36" fill="none" stroke="#151A22" stroke-width="1"/>
+        <path d="M36 0 L0 0 0 36" fill="none" stroke="#343434" stroke-width="1"/>
       </pattern>
     </defs>
     <rect width="900" height="560" fill="url(#wGrid)" opacity="0.55"/>
 
     <!-- outer glass border -->
-    <rect x="3" y="3" width="894" height="554" rx="14" fill="#11141C" opacity="0.55" stroke="url(#wBorder)" stroke-width="1.5"/>
+    <rect x="3" y="3" width="894" height="554" rx="14" fill="#343434" opacity="0.55" stroke="url(#wBorder)" stroke-width="1.5"/>
 
     <!-- title bar -->
     <rect x="3" y="3" width="894" height="42" rx="14" fill="#0D1017"/>
     <rect x="3" y="24" width="894" height="21" fill="#0D1017"/>
-    <line x1="3" y1="45" x2="897" y2="45" stroke="#1F2937" stroke-width="1"/>
-    <circle cx="28" cy="24" r="5.5" fill="#FF5F57" opacity="0.85"/>
-    <circle cx="48" cy="24" r="5.5" fill="#FEBC2E" opacity="0.85"/>
-    <circle cx="68" cy="24" r="5.5" fill="#28C840" opacity="0.85"/>
-    <text x="450" y="29" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#A0AEC0" letter-spacing="1">nandhini@core-os — zsh</text>
-    <text x="862" y="29" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#00FF9C">● LIVE</text>
+    <line x1="3" y1="45" x2="897" y2="45" stroke="#545454" stroke-width="1"/>
+    <circle cx="28" cy="24" r="5.5" fill="#545454" opacity="0.85"/>
+    <circle cx="48" cy="24" r="5.5" fill="#7A7A7A" opacity="0.85"/>
+    <circle cx="68" cy="24" r="5.5" fill="#A7A7A7" opacity="0.85"/>
+    <text x="450" y="29" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#A7A7A7" letter-spacing="1">nandhini@core-os — zsh</text>
+    <text x="862" y="29" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#7A7A7A">● LIVE</text>
 
     <!-- corner coordinates -->
-    <g font-family="JetBrains Mono, monospace" font-size="9" fill="#5B6472" opacity="0.8">
+    <g font-family="JetBrains Mono, monospace" font-size="9" fill="#7A7A7A" opacity="0.8">
       <text x="16" y="548">0x4E41</text>
       <text x="836" y="548">0xC0DE</text>
     </g>
-    <g stroke="#00F5FF" stroke-width="1.3" opacity="0.55">
+    <g stroke="#A7A7A7" stroke-width="1.3" opacity="0.55">
       <path d="M14 520 H34 M14 520 V500" fill="none"/>
       <path d="M886 520 H866 M886 520 V500" fill="none"/>
     </g>
 
     <!-- terminal body -->
-    <g font-family="JetBrains Mono, monospace" font-size="15.5" fill="#E5E7EB">
-      <text x="34" y="86" fill="#00FF9C">➜ <tspan fill="#00F5FF">~</tspan> whoami</text>
-      <rect x="132" y="73" width="9" height="17" fill="#00F5FF">
+    <g font-family="JetBrains Mono, monospace" font-size="15.5" fill="#DEDEDE">
+      <text x="34" y="86" fill="#7A7A7A">➜ <tspan fill="#A7A7A7">~</tspan> whoami</text>
+      <rect x="132" y="73" width="9" height="17" fill="#A7A7A7">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
       </rect>
 
-      <text x="34" y="126" fill="#8B5CF6" font-weight="700">NAME</text>
-      <text x="180" y="126" fill="#FFFFFF">Nandhini &#160;<tspan fill="#5B6472">// NAH</tspan></text>
+      <text x="34" y="126" fill="#545454" font-weight="700">NAME</text>
+      <text x="180" y="126" fill="#FFFFFF">Nandhini &#160;<tspan fill="#7A7A7A">// NAH</tspan></text>
 
-      <text x="34" y="156" fill="#8B5CF6" font-weight="700">LOCATION</text>
+      <text x="34" y="156" fill="#545454" font-weight="700">LOCATION</text>
       <text x="180" y="156" fill="#FFFFFF">Chennai, India</text>
 
-      <text x="34" y="186" fill="#8B5CF6" font-weight="700">ROLE</text>
+      <text x="34" y="186" fill="#545454" font-weight="700">ROLE</text>
       <text x="180" y="186" fill="#FFFFFF">AI &amp; Data Science Student</text>
 
-      <text x="34" y="216" fill="#8B5CF6" font-weight="700">EDUCATION</text>
+      <text x="34" y="216" fill="#545454" font-weight="700">EDUCATION</text>
       <text x="180" y="216" fill="#FFFFFF">B.Tech — Artificial Intelligence &amp; Data Science</text>
-      <text x="180" y="238" fill="#5B6472" font-size="13">Chennai Institute of Technology (CIT)</text>
+      <text x="180" y="238" fill="#7A7A7A" font-size="13">Chennai Institute of Technology (CIT)</text>
 
-      <line x1="34" y1="258" x2="866" y2="258" stroke="#1F2937" stroke-width="1"/>
+      <line x1="34" y1="258" x2="866" y2="258" stroke="#545454" stroke-width="1"/>
 
-      <text x="34" y="290" fill="#8B5CF6" font-weight="700">FOCUS</text>
-      <g font-size="13.5" fill="#00F5FF">
+      <text x="34" y="290" fill="#545454" font-weight="700">FOCUS</text>
+      <g font-size="13.5" fill="#A7A7A7">
         <text x="180" y="285">▹ Generative AI</text>
         <text x="180" y="307">▹ Agentic AI</text>
         <text x="340" y="285">▹ FinTech</text>
@@ -81,39 +81,39 @@
         <text x="470" y="307">▹ MLOps</text>
       </g>
 
-      <line x1="34" y1="330" x2="866" y2="330" stroke="#1F2937" stroke-width="1"/>
+      <line x1="34" y1="330" x2="866" y2="330" stroke="#545454" stroke-width="1"/>
 
-      <text x="34" y="362" fill="#8B5CF6" font-weight="700">STATUS</text>
-      <text x="180" y="362" fill="#00FF9C">Building.</text>
-      <circle cx="620" cy="357" r="4" fill="#00FF9C" filter="url(#wGlow)">
+      <text x="34" y="362" fill="#545454" font-weight="700">STATUS</text>
+      <text x="180" y="362" fill="#7A7A7A">Building.</text>
+      <circle cx="620" cy="357" r="4" fill="#7A7A7A" filter="url(#wGlow)">
         <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
       </circle>
 
-      <text x="34" y="396" fill="#8B5CF6" font-weight="700">MISSION</text>
+      <text x="34" y="396" fill="#545454" font-weight="700">MISSION</text>
       <text x="180" y="396" fill="#FFFFFF" font-size="13.5">Create intelligent technology with real-world impact.</text>
     </g>
 
     <!-- LEDs -->
     <g>
-      <circle cx="836" cy="86" r="3.5" fill="#00F5FF"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
-      <circle cx="836" cy="100" r="3.5" fill="#8B5CF6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-      <circle cx="836" cy="114" r="3.5" fill="#00FF9C"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="836" cy="86" r="3.5" fill="#A7A7A7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="836" cy="100" r="3.5" fill="#545454"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="836" cy="114" r="3.5" fill="#7A7A7A"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
     </g>
 
     <!-- prompt cursor line -->
-    <text x="34" y="440" font-family="JetBrains Mono, monospace" font-size="15.5" fill="#00FF9C">➜ <tspan fill="#00F5FF">~</tspan></text>
-    <rect x="70" y="427" width="9" height="17" fill="#00F5FF">
+    <text x="34" y="440" font-family="JetBrains Mono, monospace" font-size="15.5" fill="#7A7A7A">➜ <tspan fill="#A7A7A7">~</tspan></text>
+    <rect x="70" y="427" width="9" height="17" fill="#A7A7A7">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
 
     <!-- binary decoration -->
-    <g font-family="JetBrains Mono, monospace" font-size="10" fill="#8B5CF6" opacity="0.22">
+    <g font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" opacity="0.22">
       <text x="700" y="470">01001110 01000001 01001000</text>
       <text x="700" y="486">01000010 01010101 01001001</text>
     </g>
 
     <!-- scanlines -->
-    <g stroke="#00F5FF" stroke-width="1" opacity="0.03">
+    <g stroke="#A7A7A7" stroke-width="1" opacity="0.03">
       <line x1="0" y1="60" x2="900" y2="60"/>
       <line x1="0" y1="120" x2="900" y2="120"/>
       <line x1="0" y1="180" x2="900" y2="180"/>
@@ -124,7 +124,7 @@
       <line x1="0" y1="480" x2="900" y2="480"/>
       <line x1="0" y1="540" x2="900" y2="540"/>
     </g>
-    <rect x="0" y="0" width="900" height="2" fill="#00F5FF" opacity="0.05">
+    <rect x="0" y="0" width="900" height="2" fill="#A7A7A7" opacity="0.05">
       <animate attributeName="y" values="46;554;46" dur="7s" repeatCount="indefinite"/>
     </rect>
 

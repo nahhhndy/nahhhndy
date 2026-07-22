@@ -1,8 +1,8 @@
 <svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack architecture pyramid">
   <defs>
     <linearGradient id="tBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#A7A7A7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#545454" stop-opacity="0.6"/>
     </linearGradient>
     <filter id="tGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.6" result="b"/>
@@ -15,64 +15,64 @@
 
   <rect width="900" height="620" rx="16" fill="#090B10"/>
   <rect width="900" height="620" fill="url(#tGrid)" opacity="0.5"/>
-  <rect x="2" y="2" width="896" height="616" rx="14" fill="none" stroke="#1F2937" stroke-width="1"/>
+  <rect x="2" y="2" width="896" height="616" rx="14" fill="none" stroke="#545454" stroke-width="1"/>
 
-  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#5B6472" letter-spacing="2">
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#7A7A7A" letter-spacing="2">
     <text x="28" y="30">ARCH://SYSTEM_STACK</text>
     <text x="770" y="30">6 LAYERS</text>
   </g>
-  <line x1="28" y1="42" x2="872" y2="42" stroke="#1F2937"/>
+  <line x1="28" y1="42" x2="872" y2="42" stroke="#545454"/>
 
   <!-- connecting spine -->
   <line x1="450" y1="70" x2="450" y2="560" stroke="url(#tBorder)" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.6"/>
 
   <!-- Layer 1 - Core (top / narrow) -->
   <g transform="translate(300,64)">
-    <rect width="300" height="66" rx="14" fill="#11141C" stroke="#00F5FF" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#00F5FF" letter-spacing="1.5">L1 · CORE</text>
+    <rect width="300" height="66" rx="14" fill="#343434" stroke="#A7A7A7" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#A7A7A7" letter-spacing="1.5">L1 · CORE</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13.5" fill="#FFFFFF">Python · JavaScript · SQL</text>
-    <circle cx="278" cy="20" r="3" fill="#00F5FF" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="278" cy="20" r="3" fill="#A7A7A7" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Layer 2 - AI -->
   <g transform="translate(230,150)">
-    <rect width="440" height="78" rx="14" fill="#11141C" stroke="#8B5CF6" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B5CF6" letter-spacing="1.5">L2 · ARTIFICIAL INTELLIGENCE</text>
+    <rect width="440" height="78" rx="14" fill="#343434" stroke="#545454" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" letter-spacing="1.5">L2 · ARTIFICIAL INTELLIGENCE</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13" fill="#FFFFFF">PyTorch · TensorFlow · LangChain · OpenCV</text>
     <text x="20" y="66" font-family="Inter, sans-serif" font-size="13" fill="#FFFFFF">Scikit-learn · OpenAI API · Gemini API</text>
-    <circle cx="418" cy="20" r="3" fill="#8B5CF6" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="418" cy="20" r="3" fill="#545454" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Layer 3 - Frontend -->
   <g transform="translate(180,246)">
-    <rect width="540" height="66" rx="14" fill="#11141C" stroke="#00FF9C" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#00FF9C" letter-spacing="1.5">L3 · FRONTEND</text>
+    <rect width="540" height="66" rx="14" fill="#343434" stroke="#7A7A7A" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#7A7A7A" letter-spacing="1.5">L3 · FRONTEND</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13.5" fill="#FFFFFF">React · Next.js · TailwindCSS · HTML · CSS</text>
-    <circle cx="518" cy="20" r="3" fill="#00FF9C" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="518" cy="20" r="3" fill="#7A7A7A" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Layer 4 - Backend -->
   <g transform="translate(130,330)">
-    <rect width="640" height="66" rx="14" fill="#11141C" stroke="#00F5FF" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#00F5FF" letter-spacing="1.5">L4 · BACKEND</text>
+    <rect width="640" height="66" rx="14" fill="#343434" stroke="#A7A7A7" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#A7A7A7" letter-spacing="1.5">L4 · BACKEND</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13.5" fill="#FFFFFF">FastAPI · Node.js · Express.js · REST APIs</text>
-    <circle cx="618" cy="20" r="3" fill="#00F5FF" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="618" cy="20" r="3" fill="#A7A7A7" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Layer 5 - Database -->
   <g transform="translate(80,414)">
-    <rect width="740" height="66" rx="14" fill="#11141C" stroke="#8B5CF6" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B5CF6" letter-spacing="1.5">L5 · DATABASE</text>
+    <rect width="740" height="66" rx="14" fill="#343434" stroke="#545454" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#545454" letter-spacing="1.5">L5 · DATABASE</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13.5" fill="#FFFFFF">MongoDB · PostgreSQL · Supabase</text>
-    <circle cx="718" cy="20" r="3" fill="#8B5CF6" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="718" cy="20" r="3" fill="#545454" filter="url(#tGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Layer 6 - DevOps (base / wide) -->
   <g transform="translate(30,498)">
-    <rect width="840" height="66" rx="14" fill="#11141C" stroke="#00FF9C" stroke-opacity="0.55"/>
-    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#00FF9C" letter-spacing="1.5">L6 · DEVOPS &amp; INFRA</text>
+    <rect width="840" height="66" rx="14" fill="#343434" stroke="#7A7A7A" stroke-opacity="0.55"/>
+    <text x="20" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#7A7A7A" letter-spacing="1.5">L6 · DEVOPS &amp; INFRA</text>
     <text x="20" y="48" font-family="Inter, sans-serif" font-size="13.5" fill="#FFFFFF">Docker · GitHub Actions · Git · Vercel</text>
-    <circle cx="818" cy="20" r="3" fill="#00FF9C" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="818" cy="20" r="3" fill="#7A7A7A" filter="url(#tGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/></circle>
   </g>
 
   <g font-family="JetBrains Mono, monospace" font-size="9" fill="#3D4552">
