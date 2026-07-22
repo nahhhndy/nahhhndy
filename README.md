@@ -28,7 +28,7 @@ Currently exploring autonomous AI workflows, multimodal applications, developer 
 # `02` TECH STACK
 
 <p align="center">
-  <img src="./assets/tech_pyramid.svg" width="100%" alt="Tech Stack Pyramid">
+  <img src="./assets/techpy.svg" width="100%" alt="Tech Stack Pyramid">
 </p>
 
 # `03` GITHUB STATS
