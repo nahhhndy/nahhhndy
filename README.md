@@ -33,29 +33,5 @@ Currently exploring autonomous AI workflows, multimodal applications, developer 
 # `03` GITHUB STATS
 
 <p align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nahhhndy&show_icons=true&hide_border=true&hide_title=true&bg_color=0F0F0F&title_color=DEDEDE&text_color=BCBCBC&icon_color=979797" />
-
-<img width="49%" src="https://streak-stats.demolab.com?user=nahhhndy&theme=transparent&hide_border=true&background=0F0F0F&ring=979797&fire=DEDEDE&currStreakLabel=DEDEDE&sideLabels=BCBCBC&currStreakNum=DEDEDE&sideNums=BCBCBC&dates=717171" />
-
-</p>
-
-<p align="center">
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahhhndy&layout=compact&hide_border=true&hide_title=true&bg_color=0F0F0F&title_color=DEDEDE&text_color=BCBCBC" />
-
-</p>
-
-<p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nahhhndy&bg_color=0F0F0F&color=BCBCBC&line=979797&point=DEDEDE&area=true&area_color=2B2B2B&hide_border=true" />
-
-</p>
-
----
-
-<p align="center">
-
-*"Building intelligent systems that solve real-world problems."*
-
+  <img src="./assets/gitstats.svg" width="100%" alt="Tech Stack Pyramid">
 </p>
