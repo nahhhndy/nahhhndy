@@ -25,66 +25,11 @@ Currently exploring autonomous AI workflows, multimodal applications, developer 
 ---
 
 # `02` TECH STACK
+# `02` TECH STACK
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Languages
-
-- Python
-- Java
-- JavaScript
-- TypeScript
-- SQL
-
-### AI / ML
-
-- PyTorch
-- TensorFlow
-- Scikit-learn
-- LangChain
-- OpenAI API
-- Gemini API
-
-</td>
-
-<td width="50%" valign="top">
-
-### Frontend
-
-- React
-- Next.js
-- Tailwind CSS
-
-### Backend
-
-- FastAPI
-- Node.js
-- Express
-
-### Database
-
-- PostgreSQL
-- MongoDB
-- Supabase
-
-### DevOps & Tools
-
-- Docker
-- Git
-- GitHub
-- Linux
-- VS Code
-- Figma
-
-</td>
-</tr>
-</table>
-
-<br>
-
----
+<p align="center">
+  <img src="./assets/tech_pyramid.svg" width="100%" alt="Tech Stack Pyramid">
+</p>
 
 # `03` GITHUB STATS
 
